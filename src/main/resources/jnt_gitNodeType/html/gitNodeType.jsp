@@ -17,5 +17,5 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<h2>Repo git:${currentNode.properties['gitRepo'].string}</h2>
+<h2>Git repository URL:${currentNode.properties['gitRepo'].string}</h2>
 truc
